@@ -1,4 +1,4 @@
-package Atividade5;
+package AttAula5;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

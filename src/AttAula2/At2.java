@@ -1,4 +1,4 @@
-package Atividade1;
+package AttAula2;
 
 import java.util.Scanner;
 
