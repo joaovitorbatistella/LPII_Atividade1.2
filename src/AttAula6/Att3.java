@@ -21,7 +21,7 @@ public class Att3 {
         names.add("Andrenizia");
 
         System.out.println("Qual nome voce quer remover da lista?");
-        String removeName = ler.next();
+        String removeName = ler.nextLine();
 
         if (removeName.equals("clear")) {
             names.clear();
@@ -45,7 +45,7 @@ public class Att3 {
             }
 
             System.out.println("Qual nome voce quer remover da lista?");
-            ler.next();
+            ler.nextLine();
         }
 
         System.out.println("Ate logo!");

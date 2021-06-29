@@ -13,7 +13,7 @@ public class Att1 {
         names.add("Tiago Rios");
 
         System.out.printf("\nInforme um nome para adicionar na lista:\n");
-        String addName = ler.next();
+        String addName = ler.nextLine();
 
         if (!names.contains(addName)){
             names.add(addName);
@@ -33,7 +33,7 @@ public class Att1 {
             }
 
             System.out.printf("\nInforme um nome para adicionar na lista ou \"exit\" para encerrar a insersao:\n");
-            addName = ler.next();
+            addName = ler.nextLine();
             System.out.println(addName);
         }
 
