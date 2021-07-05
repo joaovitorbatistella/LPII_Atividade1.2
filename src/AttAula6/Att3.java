@@ -33,7 +33,7 @@ public class Att3 {
             System.out.println("Nome nao encontrado na lista");
         }
 
-        while(removeName.equals("exit") == false) {
+        while(removeName.length()!=0) {
             if (removeName.equals("clear") == true) {
                 names.clear();
                 System.out.println("A lista foi limpa!");

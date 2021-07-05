@@ -23,7 +23,7 @@ public class Att1 {
             System.out.println("Este nome ja esta contido na lista!");
         }
 
-        while(!addName.equals("exit")) {
+        while(addName.length()!=0) {
             if (!names.contains(addName)){
                 names.add(addName);
                 int position = names.indexOf(addName);
