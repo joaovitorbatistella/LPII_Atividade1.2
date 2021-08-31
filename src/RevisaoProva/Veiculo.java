@@ -2,7 +2,7 @@ package RevisaoProva;
 
 import java.util.ArrayList;
 
-public class Veiculo {
+public abstract class Veiculo {
     private int codigo;
     private int capacidade;
     private ArrayList<Passageiro> listaPassageirosNoOnibus = new ArrayList<>();
