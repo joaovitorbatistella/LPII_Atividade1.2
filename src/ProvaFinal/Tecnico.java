@@ -4,7 +4,7 @@ public class Tecnico extends Usuario {
     private String tipo;
 
     public Tecnico(String nome) {
-        this.setNome(nome);
+        super(nome);
     }
 
     public void imprimirMensagem() {

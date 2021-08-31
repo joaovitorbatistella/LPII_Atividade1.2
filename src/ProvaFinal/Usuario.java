@@ -6,7 +6,7 @@ public abstract class Usuario {
     private String nome;
     private ArrayList<Mensagem> listaMensagensRecebidas = new ArrayList();
 
-    public void Usuario(String nome) {
+    public Usuario(String nome) {
         this.nome = nome;
     }
 

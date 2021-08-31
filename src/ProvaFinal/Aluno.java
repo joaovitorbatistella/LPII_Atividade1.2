@@ -4,7 +4,7 @@ public class Aluno extends Usuario {
     private String tipo;
 
     public Aluno(String nome) {
-        this.setNome(nome);
+        super(nome);
     }
 
     public void imprimirMensagem() {
